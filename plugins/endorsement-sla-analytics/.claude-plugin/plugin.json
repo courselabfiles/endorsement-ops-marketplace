@@ -1,0 +1,9 @@
+{
+  "name": "endorsement-sla-analytics",
+  "version": "1.0.0",
+  "description": "Cycle-time & SLA analytics for endorsement operations — days-to-close by line of business and source against SLA targets, plus open defects ranked by blocked cases and blocked written premium ($ at risk). Reuses the Salesforce and Jira demo connectors.",
+  "author": {
+    "name": "Endorsement Operations Labs"
+  },
+  "keywords": ["endorsements", "sla", "cycle-time", "analytics", "written-premium", "defects"]
+}

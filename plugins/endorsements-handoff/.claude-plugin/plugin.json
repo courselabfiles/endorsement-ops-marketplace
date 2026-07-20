@@ -1,0 +1,9 @@
+{
+  "name": "endorsements-handoff",
+  "version": "1.0.0",
+  "description": "The weekly 'what's blocked' package for endorsement operations — a case view, a formatted Excel export, and a pre-filled handoff email to the development and underwriting teams. Pulls live data through the Salesforce and Jira demo connectors.",
+  "author": {
+    "name": "Endorsement Operations Labs"
+  },
+  "keywords": ["endorsements", "salesforce", "jira", "excel", "handoff", "si-queue"]
+}

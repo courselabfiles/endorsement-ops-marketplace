@@ -1,0 +1,22 @@
+{
+  "name": "endorsement-ops",
+  "owner": {
+    "name": "Endorsement Operations Labs"
+  },
+  "metadata": {
+    "description": "Local marketplace of reusable Claude capabilities for the endorsement operations labs. Built once, installed by any analyst.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "endorsements-handoff",
+      "source": "./plugins/endorsements-handoff",
+      "description": "Build the weekly Endorsements System Issues Queue handoff: pull SI-Queue cases plus incidents/dev tickets from the Salesforce and Jira demo connectors, assemble the case view, export a formatted Excel workbook, and draft the handoff email to the development and underwriting teams."
+    },
+    {
+      "name": "endorsement-sla-analytics",
+      "source": "./plugins/endorsement-sla-analytics",
+      "description": "Cycle-time & SLA analytics: days-to-close by LOB and source vs SLA targets, and open defects ranked by blocked cases and blocked written premium ($ at risk). Reuses the Salesforce + Jira demo connectors."
+    }
+  ]
+}
