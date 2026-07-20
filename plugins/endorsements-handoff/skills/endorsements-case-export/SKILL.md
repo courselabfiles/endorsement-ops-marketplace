@@ -36,7 +36,7 @@ package, the SI-Queue export, or the email to the dev / underwriting teams.
 ## Rules
 - Anchor aging to the extract's as-of date of 2026-06-09, not today; results must be reproducible.
 - Never invent cases, tickets, or numbers; report only what the connectors return.
-- The email is a **draft for a human to review and send**; remind them to attach the workbook.
+- The email is a **draft for a human to review and send**, presented as copyable text (subject + body), not a mailto link or send action; remind them to attach the workbook.
 
 ## Output
 - `Endorsements_Case_View_<as-of>.xlsx` (formatted)
